@@ -1,0 +1,26 @@
+{
+  "name": "scriptcat-webpack-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scriptscat/scriptcat-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack-plugin"
+  ],
+  "author": "CodFrm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scriptscat/scriptcat-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/scriptscat/scriptcat-webpack-plugin#readme",
+  "devDependencies": {
+    "webpack": "^5.60.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
