@@ -14,7 +14,15 @@ declare class ScriptCatWebpackPlugin {
 }
 
 declare namespace ScriptCatWebpackPlugin {
-	interface Options {
 
+	interface Options {
+		file: string
+		name: string
+		namespace: string
+		description?: string
+		version: string
+		author?: string
+		metadata?: { [key: string]: string[] | string }
 	}
+
 }

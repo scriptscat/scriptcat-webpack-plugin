@@ -1,7 +1,4 @@
-# scriptcat-webpack-plugin
 
-demo:
-```js
 const ScriptCatWebpackPlugin = require("./lib/plugin");
 
 module.exports = {
@@ -30,4 +27,3 @@ module.exports = {
 		})
 	],
 }
-```
