@@ -20,7 +20,7 @@ declare namespace ScriptCatWebpackPlugin {
 		name: string
 		namespace: string
 		description?: string
-		version: string
+		version?: string
 		author?: string
 		metadata?: { [key: string]: string[] | string }
 	}
