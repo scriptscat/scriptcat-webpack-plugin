@@ -22,7 +22,8 @@ module.exports = {
 					"GM_xmlhttpRequest",
 					"GM_notification"
 				],
-				match: "https://bbs.tampermonkey.net.cn/"
+				match: "https://bbs.tampermonkey.net.cn/",
+				background: ""
 			},
 		})
 	],
