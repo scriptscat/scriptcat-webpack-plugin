@@ -25,6 +25,9 @@ module.exports = {
 				match: "https://bbs.tampermonkey.net.cn/",
 				background: ""
 			},
+			requireFile: [
+				"./tests/test-require.js"
+			],
 		}, {
 			group1: {
 				configA: { // 键值为group.config,例如本键为:group1.configA

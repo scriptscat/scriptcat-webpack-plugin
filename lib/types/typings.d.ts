@@ -21,6 +21,7 @@ declare namespace ScriptCatWebpackPlugin {
     description?: string;
     version?: string;
     author?: string;
+    requireFile?: string[];
     metadata?: { [key: string]: string[] | string };
   };
 
